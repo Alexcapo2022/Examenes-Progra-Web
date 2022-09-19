@@ -1,0 +1,52 @@
+.casilla{
+    width: 100px;
+    height: 100px;
+    margin: 10px 10px;
+    font-size: 50px;
+    
+}
+main{
+    width:730px;
+    /*border:1px solid black;-------> sirver para ver las secciones*/
+    margin:30px auto;
+    display:flex;
+    align-items: center;
+}
+h1{
+    margin: auto;
+    color: white;
+    text-align: center;  
+}
+h2{
+    color:white;
+    font-size:20px;
+}
+body{
+    background: rgb(0,212,255);
+    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(9,9,121,1) 32%, rgba(0,212,255,1) 100%, rgba(0,212,255,1) 100%);
+}
+.section1{
+    background-color: rgba(252,255,255,0.2);
+    padding: 0 10px 10px 10px;
+}
+.section2{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+    width: 260px;   /*ancho*/
+    height: 400px; /*altura*/
+    padding:0 20px;
+    
+    
+}
+.estadisticas{
+    border: 1px solid white;
+    height: 110px;
+    border-radius: 8px;
+    padding: 8px 20px;
+    box-sizing: border-box;
+}
+footer{
+    color:white;
+    text-align: center;
+}
